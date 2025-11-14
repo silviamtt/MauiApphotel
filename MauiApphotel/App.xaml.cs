@@ -11,7 +11,7 @@ namespace MauiApphotel
 
         protected override Window CreateWindow(IActivationState? activationState)
         {
-            var window = new Window(new NavigationPage())
+            var window = new Window(new NavigationPage(new Views.Contratacaodahospedagem()))
             {
                 Width = 400,
                 Height = 600,
