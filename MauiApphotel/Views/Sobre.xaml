@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApphotel.Views.Sobre"
+             Title="Sobre"
+             BackgroundColor="{StaticResource PrimaryDark}">
+    
+    <VerticalStackLayout>
+        <Label 
+            Text="Desenvolvido por Silvia MTT, em 11/2025, utilizando o Visual Studio 2026!"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center"
+            FontFamily="IndieFlowerRegular"
+            FontSize="50"
+            TextColor="{StaticResource Primary}" />
+    </VerticalStackLayout>
+</ContentPage>

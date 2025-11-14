@@ -81,6 +81,12 @@
 
                 <Button Text="Avançar" />
 
+                <Button Text="Sobre"
+                        BackgroundColor="{StaticResource Gray300}"
+                        TextColor="{StaticResource Black}" 
+                        VerticalOptions="EndAndExpand"
+                        Clicked="Button_Sobre_Clicked"/>
+
             </VerticalStackLayout>
         </Border>
 
